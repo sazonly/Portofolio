@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--favicon-->
+    <link rel="shortcut icon" href="assets/icon/sz.png" type="image/x-icon">
+
+    <!--Font Awesome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!--Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Lato:wght@300;400;700;900&display=swap"
+        rel="stylesheet">
+
+    <!--Jonsuh-->
+    <link rel="stylesheet" href="../src/dist/css/hamburgers.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../src/dist/css/output.css" />
+    <title>Portofolio </title>
+</head>
+
+<body id="#home">
+    <!--Navbar-->
+    <div class="navbar px-4 py-3">
+        <div class="container mx-auto">
+            <div class="navbar-box flex items-center justify-between">
+                <div class="logo flex items-center gap-x-2">
+                    <img src="assets/Saza.png" alt="Logo Saza" class="md:w-20 w-16" />
+                    <h1 class="font-bold md:text-2xl text-xl">Saza.</h1>
+                </div>
+                <ul class="menu md:flex gap-x-8 items-center font-bold md:static absolute z-10 top-24 left-0 
+                md:flex-row flex-col md:bg-transparent bg-pink-200 md:w-auto w-full">
+                    <li class="py-4 w-full text-center"><a href="#home" class="hover:text-rose-300">Home</a></li>
+                    <li class="py-4 w-full text-center"><a href="#about" class="hover:text-rose-300">About</a></li>
+                    <li class="py-4 w-full text-center"><a href="#portofolio" class="hover:text-rose-300">Projects</a></li>
+                    <li class="py-4 w-full text-center"><a href="#contact" class="hover:text-rose-300">Contact</a></li>
+                    <div class="opacity-40 md:block hidden">|</div>
+                    <i class="fa-brands fa-github text-2xl md:block hidden cursor-pointer hover:text-pink-300"></i>
+                </ul>
+
+                <div class="md:hidden block">
+                    <button class="hamburger hamburger--slider" type="button">
+                        <span class="hamburger-box">
+                            <span class="hamburger-inner bg-pink-300 before:bg-pink-300 after:bg-pink-300"></span>
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Navbar-->
+
+    <!--Header-->
+    <div class="header min-h-screen flex items-center">
+        <div class="container mx-auto px-4">
+            <div class="header-box flex lg:flex-row flex-col items-center gap-10">
+                <div class="box lg:w-1/2 lg:order-1 order-2 lg:text-left text-center">
+                    <h1 class="font-extrabold md:text-4xl sm:text-3xl text-2xl text-slate-900 mb-4">An Nisa Dira</h1>
+                    <p class="mb-4 text-slate-600 md:text-base sm:text-sm text-xs"> Hello there, Welcome to my Personal
+                        Website.
+                        If you reading this and you are someone who's in the same field as me, let's connect and study
+                        together or maybe we can develop programs in the future.</p>
+                    <button class="w-48 h-12 bg-pink-300 rounded font-bold text-white hover:bg-pink-300">Get to Know
+                        Me</button>
+                </div>
+                <div class="box lg:w-1/2 lg:order-2 order-1 lg:pt-0 pt-10">
+                    <img src="assets/image/hero.png" alt="hero" class="xl:w-[500px] 
+                    lg:w-[400px] md:w-[300px] sm:w-[250px] w-[200px] block ml-auto" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Header-->
+
+    <!--About-->
+    <div class="about py-32" id="about">
+        <div class="container mx-auto px-4">
+            <div class="about-box">
+                <div class="box text-center">
+                    <h1 class="font-extrabold text-4xl mb-8">About Me</h1>
+                    <p class="lg:w-3/4 w-full mx-auto md:text-base text-xs">
+                        I'm obsessed with something detailed, paying attention to all of the small things
+                        when working on a task or activity. Manage anything to meet aggressive timelines and accomplish
+                        goals.
+                        <br>
+                        Life goes on and I have to explore my potential and competency in another field, then I choose
+                        Computer Science/Informatics as my major in university. Why I choose this major because in
+                        today’s data-driven society, informatics is everywhere and I am intrigued by how websites,
+                        applications, and games work amazingly and easily. Another reason is I've been only a software
+                        user, so I need to develop software programs that will help millions of people.
+                    </p>
+                </div>
+                <div class="box pt-16">
+                    <img src="assets/image/about2.png" class="md:w-[600px] w-[400px] mx-auto" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--About-->
+
+    <!--Portofolio-->
+    <div class="portofolio" id="portofolio">
+        <div class="container mx-auto px-4 justify-center">
+            <div class="text-center">
+                <h1 class="font-extrabold text-4xl mb-6">Portofolio</h1>
+                <p>Here's my Portofolio</p>
+            </div>
+          <div class="w-full px-4 flex flex-wrap justify-center">
+            <div class="max-w-sm p-6 mx-2 pt-2 my-5 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                <img src="assets/image/portfolio1.png" alt="">
+                    <h5 class="mb-2 pt-5 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">IndPlaces</h5>
+                <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">Aplikasi objek destinasi wisata di Indonesia, yang memumgkinkan para warga lokal ataupun turis mendapatkan info tentang beberapa objek wisata di Indonesia beserta detail HTM (Harga Tiket Masuk).</p>
+                <a href="https://sazonly.github.io/webwisata/public/" class="inline-flex items-center text-blue-600 hover:underline">
+                    Visit Site
+                    <svg class="w-5 h-5 ml-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"></path><path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"></path></svg>
+                </a>
+            </div>
+            <div class="max-w-sm p-6 mx-2 pt-2 my-5 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                <img src="assets/image/portofolio2.png" alt="" >
+                    <h5 class="mb-2 pt-5 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Unit Kegiatan Mahasiswa</h5>
+                <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">Aplikasi Unit Kegiatan Mahasiswa yang berisi ulasan tentang kegiatan mahasiswa yang tersedia di kampus. Di dalamnya terdapat berbagai detail kegiatan, juga disertai form pendaftaran.</p>
+                <a href="https://sazonly.github.io/webUKM/" class="inline-flex items-center text-blue-600 hover:underline">
+                    Visit Site
+                    <svg class="w-5 h-5 ml-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"></path><path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"></path></svg>
+                </a>
+            </div>
+            <div class="max-w-sm p-6 mx-2 pt-2 my-5 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                <img src="assets/image/portofolio3.jpeg" alt="">
+                    <h5 class="mb-2 pt-5 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">KasirApp</h5>
+                <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">Aplikasi KasirApp yang bisa digunakan untuk memesan makanan/minuman dari sebuah resaturant. Dibangun dengan menggunakan bahasa pemrograman ReactJS.</p>
+                
+            </div>
+          </div>  
+            <!-- <div class="portofolio-box">
+                <div class="box">
+                    <h1>Webiste Objek Wisata</h1>
+                    <p>Aplikasi Objek Wisata untuk mengenalkan berbagai objek yang ada di Indonesia. Situs ini berfokus
+                        pada ulasan tentang destinasi wisata, lokasi, dan harga tiket masuk (HTM).</p>
+                </div>
+                <div class="box">
+                    <div>
+                        <h1></h1>
+                    </div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="box"></div>
+            </div> -->
+        </div>
+    </div>
+    <!--Portofolio-->
+
+    <!--Contact-->
+    <div class="contact py-32" id="contact">
+        <div class="container mx-auto px-4">
+            <div class="contact-box">
+                <div class="box text-center">
+                    <h1 class="font-extrabold text-4xl mb-6">Contact</h1>
+                    <p>Let's connect with me and be friends! Send your messages here yaa</p>
+                </div>
+                <form action="https://formsubmit.co/diraa.annisa@gmail.com" method="POST" class="mt-10">
+                    <table class="mx-auto lg:w-3/4 w-3/4">
+                        <tr>
+                            <td>
+                                <input type="text" name="name" placeholder="Nama Lengkap" autocomplete="off"
+                                    required class="w-full h-12 rounded-md border p-3" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="email" name="email" placeholder="E-mail" autocomplete="off" 
+                                required class="w-full h-12 rounded-md border p-3" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <textarea name="email" id="email" cols="30" rows="10" placeholder="Pesan" autocomple="off"
+                                    required class="w-full rounded-md border p-3"></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button type="submit" class="w-40 h-10 bg-pink-300 ml-auto block rounded hover:bg-pink-300">Kirim</button>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--Contact-->
+
+    <!--Footer-->
+    <div class="footer py-12 bg-pink-400 text-white">
+        <div class="container mx-auto px-4">
+            <div class="footer-box flex justify-around lg:flex-row flex-col lg:gap-0 gap-10">
+                <div class="box lg:w-[500px]">
+                    <div class="logo flex items-center gap-2">
+                        <img src="assets/Saza.png" alt="Logo" class="w-32" />
+                        <h1 class="font-bold text-2xl">Saza.</h1>
+                    </div>
+                    <div class="desc">
+                        <p class="text-base leading-loose">Let's Work Together. Do not hesitate to contact me!</p>
+                    </div>
+                </div>
+                <div class="box flex flex-col lg:w-[150px] gap-2">
+                    <h4 class="font-bold text-2xl">Social Media</h4>
+                    <a href="https://www.linkedin.com/in/annisadira/" class="opacity-70 hover:opacity-100"><i class="fa-brands fa-linkedin"></i>     LinkedIn</a>
+                    <a href="https://www.instagram.com/annisadir/" class="opacity-70 hover:opacity-100"><i class="fa-brands fa-instagram"></i>     Instagram</a>
+                    <a href="https://github.com/sazonly" class="opacity-70 hover:opacity-100"><i class="fa-brands fa-github"></i>     Github</a>
+                    <a href="https://wa.me/6281289063961" class="opacity-70 hover:opacity-100"><i class="fa-brands fa-whatsapp"></i>     WhatsApp</a>
+                </div>
+                <div class="box flex flex-col lg:w-[200px] gap-2">
+                    <h4 class="font-bold text-2xl">Menu</h4>
+                    <a href="#home" class="opacity-70 hover:opacity-100">Home</a>
+                    <a href="#about" class="opacity-70 hover:opacity-100">About</a>
+                    <a href="#portofolio" class="opacity-70 hover:opacity-100">Portofolio</a>
+                    <a href="#contact" class="opacity-70 hover:opacity-100">Contact</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Footer-->
+
+    <!--Button Back To Top-->
+    <a href="#home">
+        <i class="fa-solid fa-circle-arrow-up fixed bottom-10 right-10 text-5xl text-rose-300 cursor-pointer hover:text-rose-300 z-20"></i>
+    </a>
+    <!--Button Back To Top-->
+
+    <!-- JS -->
+    <script src="../src/dist/js/script.js"></script>
+    <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
+</body>
+
+</html>
